@@ -1,0 +1,20 @@
+.header {
+    background-color: white;
+}
+
+.heroImage {
+    background-image: url("images/rocket_launch.jpg");
+}
+
+.content {
+    background-color: white;
+}
+
+.contactUs {
+    background-color: #814EBF;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
