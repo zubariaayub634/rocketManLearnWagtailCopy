@@ -38,6 +38,142 @@ button {
 
 .content {
     background-color: white;
+    padding: 2% 10% 2% 10%;
+    text-align: center;
+}
+
+.content button {
+    color: #fff;
+    background-color: #814ebf;
+    border-color: #814ebf;
+}
+
+.content h3 {
+    font-weight: 900;
+    font-style: italic;
+    line-height: 1.37;
+    color: #212b36;
+    font-family: proxima-nova, sans-serif;
+    font-size: 30px;
+}
+
+.content h4 {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1.75px;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.content p {
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.33;
+    color: #000;
+    font-family: proxima-nova, sans-serif;
+    font-size: 30px;
+}
+
+.content-image-vertical {
+    display: inline-block;
+    margin: 2%;
+    border: 1px solid black;
+    max-width: 45%;
+}
+
+.content-image-vertical img {
+    width: 100%;
+}
+
+.content-image-vertical div {
+    padding: 5%;
+}
+
+.content-image-vertical h2 {
+    margin-bottom: 0.75rem;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 1.21;
+    color: #212b36;
+}
+
+.content-image-vertical p {
+    margin-top: 1rem;
+    font-family: proxima-nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-style: normal;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: #000;
+}
+
+.content-image-vertical button {
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .89px;
+    text-align: center;
+    color: #814ebf;
+}
+
+.content-image-diagonal img {
+    width: 60%;
+}
+
+.content-image-diagonal div {
+    background-image: url("images/box_grey_background.png");
+    color: white;
+    width: 40%;
+    max-width: 40%;
+    padding: 3%;
+    text-align: left;
+}
+
+.content-image-diagonal h2 {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+}
+
+.content-image-diagonal p {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 1.43;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    color: white;
+}
+
+.content-image-diagonal button {
+    background-color: white;
+    color: black;
+}
+
+.content-image-right {
+    text-align: right;
+}
+
+.content-image-right div {
+    position: relative;
+    bottom: 200px;
+    left: 10%;
+}
+
+.content-image-left {
+    text-align: left;
+}
+
+.content-image-left div {
+    position: relative;
+    bottom: 200px;
+    right: -50%;
 }
 
 .contactUs {
